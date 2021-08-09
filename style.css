@@ -97,7 +97,7 @@ img.background {
   text-align: center;
 }
 
-.attribution {
+.footer {
   position: absolute;
   left: 50%;
   bottom: 10px;
@@ -106,26 +106,26 @@ img.background {
   text-align: center;
 }
 
-.attribution a {
+.footer a {
   color: hsl(228, 45%, 44%);
 }
 
 @media screen and (max-width : 1345px) {
-  img.background {
+  .background {
     width: 150%;
   }
 
-  img.background#top {
+  .background_top {
     top: -340px;
     left: -300px;
   }
 
-  img.background#bottom {
+  .background_bottom {
     bottom: -340px;
     right: -300px;
   }
 
-  div.card {
+  .card {
     width: 319px;
   }
 }
