@@ -38,7 +38,7 @@ h2 span {
   font-weight: 400;
 }
 
-img.background {
+.background {
   position: absolute;
   z-index: -1;
   width: 70%;
